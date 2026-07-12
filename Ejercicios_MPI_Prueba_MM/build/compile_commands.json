@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/tools/Ejercicios_MPI_Prueba_2/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\producto_externo.dir\\Debug\\main.cpp.obj -c C:\\tools\\Ejercicios_MPI_Prueba_2\\main.cpp",
+  "file": "C:/tools/Ejercicios_MPI_Prueba_2/main.cpp",
+  "output": "C:/tools/Ejercicios_MPI_Prueba_2/build/CMakeFiles/producto_externo.dir/Debug/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/Ejercicios_MPI_Prueba_2/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\producto_externo.dir\\Debug\\solver.cpp.obj -c C:\\tools\\Ejercicios_MPI_Prueba_2\\solver.cpp",
+  "file": "C:/tools/Ejercicios_MPI_Prueba_2/solver.cpp",
+  "output": "C:/tools/Ejercicios_MPI_Prueba_2/build/CMakeFiles/producto_externo.dir/Debug/solver.cpp.obj"
+},
+{
+  "directory": "C:/tools/Ejercicios_MPI_Prueba_2/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\producto_externo.dir\\Release\\main.cpp.obj -c C:\\tools\\Ejercicios_MPI_Prueba_2\\main.cpp",
+  "file": "C:/tools/Ejercicios_MPI_Prueba_2/main.cpp",
+  "output": "C:/tools/Ejercicios_MPI_Prueba_2/build/CMakeFiles/producto_externo.dir/Release/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/Ejercicios_MPI_Prueba_2/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\producto_externo.dir\\Release\\solver.cpp.obj -c C:\\tools\\Ejercicios_MPI_Prueba_2\\solver.cpp",
+  "file": "C:/tools/Ejercicios_MPI_Prueba_2/solver.cpp",
+  "output": "C:/tools/Ejercicios_MPI_Prueba_2/build/CMakeFiles/producto_externo.dir/Release/solver.cpp.obj"
+},
+{
+  "directory": "C:/tools/Ejercicios_MPI_Prueba_2/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\producto_externo.dir\\RelWithDebInfo\\main.cpp.obj -c C:\\tools\\Ejercicios_MPI_Prueba_2\\main.cpp",
+  "file": "C:/tools/Ejercicios_MPI_Prueba_2/main.cpp",
+  "output": "C:/tools/Ejercicios_MPI_Prueba_2/build/CMakeFiles/producto_externo.dir/RelWithDebInfo/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/Ejercicios_MPI_Prueba_2/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\producto_externo.dir\\RelWithDebInfo\\solver.cpp.obj -c C:\\tools\\Ejercicios_MPI_Prueba_2\\solver.cpp",
+  "file": "C:/tools/Ejercicios_MPI_Prueba_2/solver.cpp",
+  "output": "C:/tools/Ejercicios_MPI_Prueba_2/build/CMakeFiles/producto_externo.dir/RelWithDebInfo/solver.cpp.obj"
+}
+]

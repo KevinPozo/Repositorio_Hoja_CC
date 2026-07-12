@@ -1,0 +1,11 @@
+{
+	"Configs" : 
+	[
+		"Debug"
+	],
+	"InstallScripts" : 
+	[
+		"C:/tools/Ejercicios_MPI_Prueba_3/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

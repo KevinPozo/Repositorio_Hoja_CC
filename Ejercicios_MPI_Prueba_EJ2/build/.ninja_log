@@ -1,0 +1,10 @@
+# ninja log v7
+9	420	8055829316891783	CMakeFiles/ejercicio2.dir/Release/main.cpp.obj	2a80ec630e5c3c5b
+18	1521	8055829316981974	CMakeFiles/ejercicio2.dir/Release/solver.cpp.obj	df7411f22d5ffda3
+1526	1840	8055829332067880	Release/ejercicio2.exe	4002226c41dde395
+9	475	8055832368950318	CMakeFiles/ejercicio2.dir/Release/main.cpp.obj	2a80ec630e5c3c5b
+19	1582	8055832369060381	CMakeFiles/ejercicio2.dir/Release/solver.cpp.obj	df7411f22d5ffda3
+1583	1841	8055832384691341	Release/ejercicio2.exe	4002226c41dde395
+9	596	8055833131168698	CMakeFiles/ejercicio2.dir/Release/main.cpp.obj	2a80ec630e5c3c5b
+19	1920	8055833131273602	CMakeFiles/ejercicio2.dir/Release/solver.cpp.obj	df7411f22d5ffda3
+1924	2200	8055833150325584	Release/ejercicio2.exe	4002226c41dde395

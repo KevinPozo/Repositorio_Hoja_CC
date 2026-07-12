@@ -1,0 +1,14 @@
+# ninja log v7
+22	1554	8055819373589512	CMakeFiles/producto_externo.dir/Release/solver.cpp.obj	828c7a6187452ce5
+12	2202	8055819373487872	CMakeFiles/producto_externo.dir/Release/main.cpp.obj	eeed95de9400ef93
+2206	2636	8055819395425390	Release/producto_externo.exe	f6e6e5ffa5186d32
+24	1277	8055821672296353	CMakeFiles/producto_externo.dir/Release/solver.cpp.obj	828c7a6187452ce5
+14	2171	8055821672195385	CMakeFiles/producto_externo.dir/Release/main.cpp.obj	eeed95de9400ef93
+2171	2521	8055821693769061	Release/producto_externo.exe	f6e6e5ffa5186d32
+15	968	8055822819502074	CMakeFiles/producto_externo.dir/Debug/solver.cpp.obj	d002c52f4fdd364c
+6	1803	8055822819400241	CMakeFiles/producto_externo.dir/Debug/main.cpp.obj	a91abf79e0e3763a
+1803	2076	8055822837368010	Debug/producto_externo.exe	d66413c7acb0db34
+9	1741	8055825803800550	CMakeFiles/producto_externo.dir/Release/main.cpp.obj	eeed95de9400ef93
+1743	2127	8055825821131841	Release/producto_externo.exe	f6e6e5ffa5186d32
+14	1680	8055826367030181	CMakeFiles/producto_externo.dir/Debug/main.cpp.obj	a91abf79e0e3763a
+1682	2281	8055826383709813	Debug/producto_externo.exe	d66413c7acb0db34
