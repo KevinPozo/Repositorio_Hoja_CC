@@ -1,0 +1,128 @@
+[
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Debug\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -g -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Debug\\main.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\main.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/main.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Debug/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Debug\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -g -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Debug\\fractal-mpi.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-mpi.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-mpi.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Debug/fractal-mpi.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Debug\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -g -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Debug\\fractal-serial.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-serial.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-serial.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Debug/fractal-serial.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Debug\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -g -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Debug\\fractal-omp.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-omp.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-omp.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Debug/fractal-omp.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Debug\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -g -fopenmp -mavx2 -o CMakeFiles\\prueba-mpi.dir\\Debug\\fractal-simd.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-simd.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-simd.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Debug/fractal-simd.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Debug\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -g -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Debug\\palette.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\palette.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/palette.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Debug/palette.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Debug\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -g -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Debug\\fractal-cuda-stub.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-cuda-stub.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-cuda-stub.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Debug/fractal-cuda-stub.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Release\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Release\\main.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\main.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/main.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Release/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Release\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Release\\fractal-mpi.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-mpi.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-mpi.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Release/fractal-mpi.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Release\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Release\\fractal-serial.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-serial.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-serial.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Release/fractal-serial.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Release\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Release\\fractal-omp.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-omp.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-omp.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Release/fractal-omp.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Release\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -fopenmp -mavx2 -o CMakeFiles\\prueba-mpi.dir\\Release\\fractal-simd.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-simd.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-simd.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Release/fractal-simd.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Release\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Release\\palette.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\palette.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/palette.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Release/palette.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"Release\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -ffast-math -fopenmp -o CMakeFiles\\prueba-mpi.dir\\Release\\fractal-cuda-stub.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-cuda-stub.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-cuda-stub.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/Release/fractal-cuda-stub.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -fopenmp -o CMakeFiles\\prueba-mpi.dir\\RelWithDebInfo\\main.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\main.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/main.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/RelWithDebInfo/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -fopenmp -o CMakeFiles\\prueba-mpi.dir\\RelWithDebInfo\\fractal-mpi.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-mpi.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-mpi.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/RelWithDebInfo/fractal-mpi.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -fopenmp -o CMakeFiles\\prueba-mpi.dir\\RelWithDebInfo\\fractal-serial.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-serial.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-serial.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/RelWithDebInfo/fractal-serial.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -fopenmp -o CMakeFiles\\prueba-mpi.dir\\RelWithDebInfo\\fractal-omp.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-omp.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-omp.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/RelWithDebInfo/fractal-omp.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -fopenmp -mavx2 -o CMakeFiles\\prueba-mpi.dir\\RelWithDebInfo\\fractal-simd.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-simd.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-simd.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/RelWithDebInfo/fractal-simd.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -fopenmp -o CMakeFiles\\prueba-mpi.dir\\RelWithDebInfo\\palette.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\palette.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/palette.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/RelWithDebInfo/palette.cpp.obj"
+},
+{
+  "directory": "C:/tools/prueba02_pozo_kevin/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DOPENMP_AVAILABLE -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneApi/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -fopenmp -o CMakeFiles\\prueba-mpi.dir\\RelWithDebInfo\\fractal-cuda-stub.cpp.obj -c C:\\tools\\prueba02_pozo_kevin\\fractal-cuda-stub.cpp",
+  "file": "C:/tools/prueba02_pozo_kevin/fractal-cuda-stub.cpp",
+  "output": "C:/tools/prueba02_pozo_kevin/build/CMakeFiles/prueba-mpi.dir/RelWithDebInfo/fractal-cuda-stub.cpp.obj"
+}
+]

@@ -1,0 +1,7 @@
+# ninja log v7
+24	675	8057837391170528	CMakeFiles/prueba-mpi.dir/Debug/palette.cpp.obj	3d0ef8acebdd8f3e
+18	1721	8057837391110515	CMakeFiles/prueba-mpi.dir/Debug/fractal-mpi.cpp.obj	9cfd6766555c0c69
+9	7195	8057837391010561	CMakeFiles/prueba-mpi.dir/Debug/main.cpp.obj	f978319f0d316f09
+7204	20844	8057837462976028	Debug/prueba-mpi.exe	588ff2cd7c0f7dac
+15	5712	8057841799863929	CMakeFiles/prueba-mpi.dir/Debug/main.cpp.obj	f978319f0d316f09
+5713	15002	8057841856856450	Debug/prueba-mpi.exe	588ff2cd7c0f7dac

@@ -1,0 +1,11 @@
+{
+	"Configs" : 
+	[
+		"Debug"
+	],
+	"InstallScripts" : 
+	[
+		"C:/tools/prueba02_pozo_kevin/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
