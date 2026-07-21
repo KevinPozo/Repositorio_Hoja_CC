@@ -1,0 +1,7 @@
+# ninja log v7
+38	2878	8063414696075289	CMakeFiles/examen02_cuda.dir/Debug/blur_cuda_dummy.cpp.obj	e0911a3c2f268bec
+24	2841	8063414695943740	CMakeFiles/examen02_omp.dir/Debug/blur_omp.cpp.obj	ae7e870528488138
+27	2806	8063415894123969	CMakeFiles/examen02_cuda.dir/Debug/main_cuda.cpp.obj	150914074c8047b
+18	2853	8063415894034014	CMakeFiles/examen02_omp.dir/Debug/main_omp.cpp.obj	63d513fd33ed1b3
+2854	12510	8063415922391675	Debug/examen02_omp.exe	1b4e25a297056ef
+2808	12465	8063415921942291	Debug/examen02_cuda.exe	91ec2d27ee9628ae

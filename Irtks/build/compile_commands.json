@@ -1,0 +1,74 @@
+[
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Debug\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -std=gnu++17 -fopenmp -o CMakeFiles\\examen02_omp.dir\\Debug\\main_omp.cpp.obj -c C:\\tools\\EjemploDos\\main_omp.cpp",
+  "file": "C:/tools/EjemploDos/main_omp.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_omp.dir/Debug/main_omp.cpp.obj"
+},
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Debug\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -std=gnu++17 -fopenmp -o CMakeFiles\\examen02_omp.dir\\Debug\\blur_omp.cpp.obj -c C:\\tools\\EjemploDos\\blur_omp.cpp",
+  "file": "C:/tools/EjemploDos/blur_omp.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_omp.dir/Debug/blur_omp.cpp.obj"
+},
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Release\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles\\examen02_omp.dir\\Release\\main_omp.cpp.obj -c C:\\tools\\EjemploDos\\main_omp.cpp",
+  "file": "C:/tools/EjemploDos/main_omp.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_omp.dir/Release/main_omp.cpp.obj"
+},
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Release\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles\\examen02_omp.dir\\Release\\blur_omp.cpp.obj -c C:\\tools\\EjemploDos\\blur_omp.cpp",
+  "file": "C:/tools/EjemploDos/blur_omp.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_omp.dir/Release/blur_omp.cpp.obj"
+},
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles\\examen02_omp.dir\\RelWithDebInfo\\main_omp.cpp.obj -c C:\\tools\\EjemploDos\\main_omp.cpp",
+  "file": "C:/tools/EjemploDos/main_omp.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_omp.dir/RelWithDebInfo/main_omp.cpp.obj"
+},
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles\\examen02_omp.dir\\RelWithDebInfo\\blur_omp.cpp.obj -c C:\\tools\\EjemploDos\\blur_omp.cpp",
+  "file": "C:/tools/EjemploDos/blur_omp.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_omp.dir/RelWithDebInfo/blur_omp.cpp.obj"
+},
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Debug\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -std=gnu++17 -o CMakeFiles\\examen02_cuda.dir\\Debug\\main_cuda.cpp.obj -c C:\\tools\\EjemploDos\\main_cuda.cpp",
+  "file": "C:/tools/EjemploDos/main_cuda.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_cuda.dir/Debug/main_cuda.cpp.obj"
+},
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Debug\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -std=gnu++17 -o CMakeFiles\\examen02_cuda.dir\\Debug\\blur_cuda_dummy.cpp.obj -c C:\\tools\\EjemploDos\\blur_cuda_dummy.cpp",
+  "file": "C:/tools/EjemploDos/blur_cuda_dummy.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_cuda.dir/Debug/blur_cuda_dummy.cpp.obj"
+},
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Release\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\examen02_cuda.dir\\Release\\main_cuda.cpp.obj -c C:\\tools\\EjemploDos\\main_cuda.cpp",
+  "file": "C:/tools/EjemploDos/main_cuda.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_cuda.dir/Release/main_cuda.cpp.obj"
+},
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Release\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\examen02_cuda.dir\\Release\\blur_cuda_dummy.cpp.obj -c C:\\tools\\EjemploDos\\blur_cuda_dummy.cpp",
+  "file": "C:/tools/EjemploDos/blur_cuda_dummy.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_cuda.dir/Release/blur_cuda_dummy.cpp.obj"
+},
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles\\examen02_cuda.dir\\RelWithDebInfo\\main_cuda.cpp.obj -c C:\\tools\\EjemploDos\\main_cuda.cpp",
+  "file": "C:/tools/EjemploDos/main_cuda.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_cuda.dir/RelWithDebInfo/main_cuda.cpp.obj"
+},
+{
+  "directory": "C:/tools/EjemploDos/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles\\examen02_cuda.dir\\RelWithDebInfo\\blur_cuda_dummy.cpp.obj -c C:\\tools\\EjemploDos\\blur_cuda_dummy.cpp",
+  "file": "C:/tools/EjemploDos/blur_cuda_dummy.cpp",
+  "output": "C:/tools/EjemploDos/build/CMakeFiles/examen02_cuda.dir/RelWithDebInfo/blur_cuda_dummy.cpp.obj"
+}
+]

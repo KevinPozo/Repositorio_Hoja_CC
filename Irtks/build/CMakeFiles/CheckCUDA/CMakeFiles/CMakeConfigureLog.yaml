@@ -1,0 +1,223 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "c:/tools/vcpkg-2026.03.18/scripts/buildsystems/vcpkg.cmake:309 (find_program)"
+      - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "Z_VCPKG_CL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cl"
+    candidate_directories:
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/kevin/AppData/Local/agy/bin/"
+      - "C:/Users/kevin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/kevin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/kevin/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/kevin/AppData/Local/Python/bin/"
+      - "C:/Users/kevin/AppData/Roaming/npm/"
+      - "C:/tools/mingw64/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/kevin/AppData/Local/Programs/Ollama/"
+      - "C:/Users/kevin/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+    searched_directories:
+      - "C:/Program Files/nodejs/cl.com"
+      - "C:/Program Files/nodejs/cl.exe"
+      - "C:/Program Files/nodejs/cl"
+      - "C:/Users/kevin/AppData/Local/agy/bin/cl.com"
+      - "C:/Users/kevin/AppData/Local/agy/bin/cl.exe"
+      - "C:/Users/kevin/AppData/Local/agy/bin/cl"
+      - "C:/Users/kevin/AppData/Local/Microsoft/WindowsApps/cl.com"
+      - "C:/Users/kevin/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/kevin/AppData/Local/Microsoft/WindowsApps/cl"
+      - "C:/Users/kevin/AppData/Local/Programs/Microsoft VS Code/bin/cl.com"
+      - "C:/Users/kevin/AppData/Local/Programs/Microsoft VS Code/bin/cl.exe"
+      - "C:/Users/kevin/AppData/Local/Programs/Microsoft VS Code/bin/cl"
+      - "C:/Users/kevin/AppData/Local/Programs/Antigravity/bin/cl.com"
+      - "C:/Users/kevin/AppData/Local/Programs/Antigravity/bin/cl.exe"
+      - "C:/Users/kevin/AppData/Local/Programs/Antigravity/bin/cl"
+      - "C:/Users/kevin/AppData/Local/Python/bin/cl.com"
+      - "C:/Users/kevin/AppData/Local/Python/bin/cl.exe"
+      - "C:/Users/kevin/AppData/Local/Python/bin/cl"
+      - "C:/Users/kevin/AppData/Roaming/npm/cl.com"
+      - "C:/Users/kevin/AppData/Roaming/npm/cl.exe"
+      - "C:/Users/kevin/AppData/Roaming/npm/cl"
+      - "C:/tools/mingw64/bin/cl.com"
+      - "C:/tools/mingw64/bin/cl.exe"
+      - "C:/tools/mingw64/bin/cl"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/cl.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/cl.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/cl"
+      - "C:/Users/kevin/AppData/Local/Programs/Ollama/cl.com"
+      - "C:/Users/kevin/AppData/Local/Programs/Ollama/cl.exe"
+      - "C:/Users/kevin/AppData/Local/Programs/Ollama/cl"
+      - "C:/Users/kevin/AppData/Local/GitHubDesktop/bin/cl.com"
+      - "C:/Users/kevin/AppData/Local/GitHubDesktop/bin/cl.exe"
+      - "C:/Users/kevin/AppData/Local/GitHubDesktop/bin/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:/Program Files/nodejs"
+        - "C:\\Users\\kevin\\AppData\\Local\\agy\\bin"
+        - "C:/Users/kevin/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\kevin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/kevin/AppData/Local/Programs/Antigravity/bin"
+        - "C:\\Users\\kevin\\AppData\\Local\\Python\\bin"
+        - "C:/Users/kevin/AppData/Roaming/npm"
+        - "C:\\tools\\mingw64\\bin"
+        - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin"
+        - "C:\\Users\\kevin\\AppData\\Local\\Programs\\Ollama"
+        - "C:/Users/kevin/AppData/Local/GitHubDesktop/bin"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:39 (_cmake_find_compiler)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_CUDA_COMPILER"
+    description: "CUDA compiler"
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "LAST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nvcc"
+    candidate_directories:
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/"
+      - "c:/tools/mingw64/bin/"
+      - "C:/tools/mingw64/bin/"
+    searched_directories:
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/nvcc.com"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/nvcc.exe"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/nvcc"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/nvcc.com"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/nvcc.exe"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/nvcc"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/nvcc.com"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/nvcc.exe"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/nvcc"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/nvcc.com"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/nvcc.exe"
+      - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/nvcc"
+      - "c:/tools/mingw64/bin/nvcc.com"
+      - "c:/tools/mingw64/bin/nvcc.exe"
+      - "c:/tools/mingw64/bin/nvcc"
+      - "C:/tools/mingw64/bin/nvcc.com"
+      - "C:/tools/mingw64/bin/nvcc.exe"
+      - "C:/tools/mingw64/bin/nvcc"
+    found: false
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools"
+        - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/brotli"
+        - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/bzip2"
+      CMAKE_PREFIX_PATH:
+        - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug"
+        - "c:/tools/vcpkg-2026.03.18/installed/x64-windows"
+      ENV{PATH}:
+        - "C:/Program Files/nodejs"
+        - "C:\\Users\\kevin\\AppData\\Local\\agy\\bin"
+        - "C:/Users/kevin/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\kevin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/kevin/AppData/Local/Programs/Antigravity/bin"
+        - "C:\\Users\\kevin\\AppData\\Local\\Python\\bin"
+        - "C:/Users/kevin/AppData/Roaming/npm"
+        - "C:\\tools\\mingw64\\bin"
+        - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin"
+        - "C:\\Users\\kevin\\AppData\\Local\\Programs\\Ollama"
+        - "C:/Users/kevin/AppData/Local/GitHubDesktop/bin"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+      CMAKE_FIND_ROOT_PATH: "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;c:/tools/vcpkg-2026.03.18/installed/x64-windows"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1309 (message)"
+      - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:99 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the CUDA compiler is NVIDIA using "" did not match "nvcc: [^
+      ]+ Cuda compiler driver":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1309 (message)"
+      - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:99 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the CUDA compiler is Clang using "" did not match "(clang version)":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/tools/mingw64/share/cmake-4.3/Modules/Internal/CMakeCUDAFindToolkit.cmake:15 (find_program)"
+      - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:109 (cmake_cuda_find_toolkit)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "_CUDA_NVCC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "LAST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nvcc"
+      - "nvcc.exe"
+    found: false
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools"
+        - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/brotli"
+        - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/bzip2"
+      CMAKE_PREFIX_PATH:
+        - "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug"
+        - "c:/tools/vcpkg-2026.03.18/installed/x64-windows"
+      ENV{PATH}:
+        - "C:/Program Files/nodejs"
+        - "C:\\Users\\kevin\\AppData\\Local\\agy\\bin"
+        - "C:/Users/kevin/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\kevin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/kevin/AppData/Local/Programs/Antigravity/bin"
+        - "C:\\Users\\kevin\\AppData\\Local\\Python\\bin"
+        - "C:/Users/kevin/AppData/Roaming/npm"
+        - "C:\\tools\\mingw64\\bin"
+        - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin"
+        - "C:\\Users\\kevin\\AppData\\Local\\Programs\\Ollama"
+        - "C:/Users/kevin/AppData/Local/GitHubDesktop/bin"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+      CMAKE_FIND_ROOT_PATH: "c:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;c:/tools/vcpkg-2026.03.18/installed/x64-windows"
+...

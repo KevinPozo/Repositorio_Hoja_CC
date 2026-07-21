@@ -1,0 +1,310 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenMP::OpenMP_CXX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP__OpenMP_CXX-Debug-60de77759bf27e6aeca1.json",
+					"name" : "OpenMP::OpenMP_CXX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::Graphics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__Graphics-Debug-ba749589d1526f7d0c46.json",
+					"name" : "SFML::Graphics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::System::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__System-Debug-62e2921eb62fc4bd4e70.json",
+					"name" : "SFML::System",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::Window::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__Window-Debug-7570183aa1d13701ca4b.json",
+					"name" : "SFML::Window",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Pozo_Maldonado_Kevin",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "examen02_cuda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen02_cuda-Debug-c80acc509207e2190e78.json",
+					"name" : "examen02_cuda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen02_omp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen02_omp-Debug-0dfef7c34720994ef14d.json",
+					"name" : "examen02_omp",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenMP::OpenMP_CXX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP__OpenMP_CXX-Release-60de77759bf27e6aeca1.json",
+					"name" : "OpenMP::OpenMP_CXX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::Graphics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__Graphics-Release-73c5c90faa54b2ffa62c.json",
+					"name" : "SFML::Graphics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::System::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__System-Release-e8f802c67e0c80a253cd.json",
+					"name" : "SFML::System",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::Window::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__Window-Release-cd3c5f962a50eb1e2e00.json",
+					"name" : "SFML::Window",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Pozo_Maldonado_Kevin",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "examen02_cuda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen02_cuda-Release-12676567133e36da504a.json",
+					"name" : "examen02_cuda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen02_omp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen02_omp-Release-140ff4924bd4bc174a50.json",
+					"name" : "examen02_omp",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenMP::OpenMP_CXX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP__OpenMP_CXX-RelWithDebInfo-60de77759bf27e6aeca1.json",
+					"name" : "OpenMP::OpenMP_CXX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::Graphics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__Graphics-RelWithDebInfo-73c5c90faa54b2ffa62c.json",
+					"name" : "SFML::Graphics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::System::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__System-RelWithDebInfo-e8f802c67e0c80a253cd.json",
+					"name" : "SFML::System",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::Window::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__Window-RelWithDebInfo-cd3c5f962a50eb1e2e00.json",
+					"name" : "SFML::Window",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Pozo_Maldonado_Kevin",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "examen02_cuda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen02_cuda-RelWithDebInfo-ce9f55ec755d094db85d.json",
+					"name" : "examen02_cuda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen02_omp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen02_omp-RelWithDebInfo-109945cbef4d6694f6ae.json",
+					"name" : "examen02_omp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/tools/EjemploDos/build",
+		"source" : "C:/tools/EjemploDos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}
