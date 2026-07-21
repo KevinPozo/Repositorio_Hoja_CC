@@ -1,0 +1,3 @@
+C:/tools/prueba01_pozo_kevin/build/CMakeFiles/prueba-mpi.dir
+C:/tools/prueba01_pozo_kevin/build/CMakeFiles/edit_cache.dir
+C:/tools/prueba01_pozo_kevin/build/CMakeFiles/rebuild_cache.dir
