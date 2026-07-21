@@ -1,3 +1,0 @@
-C:/tools/Ejercicios_MPI_Prueba/build/CMakeFiles/mpi_practice.dir
-C:/tools/Ejercicios_MPI_Prueba/build/CMakeFiles/edit_cache.dir
-C:/tools/Ejercicios_MPI_Prueba/build/CMakeFiles/rebuild_cache.dir
