@@ -5,3 +5,9 @@
 18	2853	8063415894034014	CMakeFiles/examen02_omp.dir/Debug/main_omp.cpp.obj	63d513fd33ed1b3
 2854	12510	8063415922391675	Debug/examen02_omp.exe	1b4e25a297056ef
 2808	12465	8063415921942291	Debug/examen02_cuda.exe	91ec2d27ee9628ae
+22	3343	8063427094168570	CMakeFiles/examen02_omp.dir/Debug/filter_omp.cpp.obj	377bf481750b984f
+35	3385	8063427094308580	CMakeFiles/examen02_cuda.dir/Debug/filter_cuda_dummy.cpp.obj	c3c020c75eaee1dc
+13	4533	8063427094083483	CMakeFiles/examen02_omp.dir/Debug/main_omp.cpp.obj	b3ec5f52053bdc0f
+28	4712	8063427094238531	CMakeFiles/examen02_cuda.dir/Debug/main_cuda.cpp.obj	380bea4abb7b8aac
+4534	16714	8063427139294116	Debug/examen02_omp.exe	4309ecf292720130
+4713	16956	8063427141088029	Debug/examen02_cuda.exe	222fba2232387f89

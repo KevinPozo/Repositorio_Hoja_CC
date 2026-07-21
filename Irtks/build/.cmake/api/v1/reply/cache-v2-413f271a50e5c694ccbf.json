@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/tools/EjemploDos/build"
+			"value" : "c:/tools/Irtks/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,7 +155,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
 			"type" : "STRING",
@@ -459,7 +459,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/tools/EjemploDos/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/tools/Irtks/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -531,7 +531,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/tools/EjemploDos"
+			"value" : "C:/tools/Irtks"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1183,10 +1183,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "c:/tools/vcpkg-2026.03.18/scripts/buildsystems/vcpkg.cmake"
 		},
 		{
@@ -1339,7 +1339,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/tools/EjemploDos/build"
+			"value" : "C:/tools/Irtks/build"
 		},
 		{
 			"name" : "Pozo_Maldonado_Kevin_IS_TOP_LEVEL",
@@ -1363,7 +1363,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/tools/EjemploDos"
+			"value" : "C:/tools/Irtks"
 		},
 		{
 			"name" : "SFML_DIR",

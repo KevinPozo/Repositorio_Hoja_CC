@@ -189,7 +189,7 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "blur_cuda_dummy.cpp",
+			"path" : "filter_cuda_dummy.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

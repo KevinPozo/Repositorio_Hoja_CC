@@ -137,7 +137,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\tools\mingw64\bin\cmake.exe --regenerate-during-build -SC:\tools\EjemploDos -BC:\tools\EjemploDos\build
+  command = C:\tools\mingw64\bin\cmake.exe --regenerate-during-build -SC:\tools\Irtks -BC:\tools\Irtks\build
   description = Re-running CMake...
   generator = 1
 

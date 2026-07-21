@@ -1,8 +1,8 @@
-#include "blur_omp.h"
+#include "filter_omp.h"
 #include <omp.h>
 #include <cstdint>
 
-void applyGaussianBlurOMP(const std::uint8_t* input, std::uint8_t* output, int width, int height) {
+void applyFilterOMP(const std::uint8_t* input, std::uint8_t* output, int width, int height) {
     const int kernel[3][3] = {
         {1, 2, 1},
         {2, 4, 2},
@@ -42,10 +42,17 @@ void applyGaussianBlurOMP(const std::uint8_t* input, std::uint8_t* output, int w
                 }
 
                 int out_index = (y * width + x) * 4;
-                output[out_index] = sum[0] / weight_sum;
-                output[out_index + 1] = sum[1] / weight_sum;
-                output[out_index + 2] = sum[2] / weight_sum;
-                output[out_index + 3] = sum[3] / weight_sum;
+                if (weight_sum != 0) {
+                    output[out_index] = sum[0] / weight_sum;
+                    output[out_index + 1] = sum[1] / weight_sum;
+                    output[out_index + 2] = sum[2] / weight_sum;
+                    output[out_index + 3] = sum[3] / weight_sum;
+                } else {
+                    output[out_index] = sum[0];
+                    output[out_index + 1] = sum[1];
+                    output[out_index + 2] = sum[2];
+                    output[out_index + 3] = sum[3];
+                }
             }
         }
     }

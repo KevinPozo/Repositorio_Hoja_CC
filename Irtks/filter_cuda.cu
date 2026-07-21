@@ -1,11 +1,11 @@
-#include "blur_cuda.cuh"
+#include "filter_cuda.cuh"
 #include <cuda_runtime.h>
 #include <device_launch_parameters.h>
 #include <cstdint>
 
 __constant__ int d_kernel[9] = {1, 2, 1, 2, 4, 2, 1, 2, 1};
 
-__global__ void blurKernel1D(const unsigned char* input, unsigned char* output, int width, int height) {
+__global__ void filterKernel1D(const unsigned char* input, unsigned char* output, int width, int height) {
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     int total_pixels = width * height;
 
@@ -35,14 +35,21 @@ __global__ void blurKernel1D(const unsigned char* input, unsigned char* output, 
         }
 
         int out_idx = idx * 4;
-        output[out_idx] = sum[0] / weight_sum;
-        output[out_idx + 1] = sum[1] / weight_sum;
-        output[out_idx + 2] = sum[2] / weight_sum;
-        output[out_idx + 3] = sum[3] / weight_sum;
+        if (weight_sum != 0) {
+            output[out_idx] = sum[0] / weight_sum;
+            output[out_idx + 1] = sum[1] / weight_sum;
+            output[out_idx + 2] = sum[2] / weight_sum;
+            output[out_idx + 3] = sum[3] / weight_sum;
+        } else {
+            output[out_idx] = sum[0];
+            output[out_idx + 1] = sum[1];
+            output[out_idx + 2] = sum[2];
+            output[out_idx + 3] = sum[3];
+        }
     }
 }
 
-void applyGaussianBlurCUDA(const std::uint8_t* input, std::uint8_t* output, int width, int height) {
+void applyFilterCUDA(const std::uint8_t* input, std::uint8_t* output, int width, int height) {
     int total_pixels = width * height;
     size_t size = total_pixels * 4 * sizeof(unsigned char);
 
@@ -55,7 +62,7 @@ void applyGaussianBlurCUDA(const std::uint8_t* input, std::uint8_t* output, int 
     int blockSize = 256;
     int gridSize = (total_pixels + blockSize - 1) / blockSize;
 
-    blurKernel1D<<<gridSize, blockSize>>>(d_input, d_output, width, height);
+    filterKernel1D<<<gridSize, blockSize>>>(d_input, d_output, width, height);
     cudaDeviceSynchronize();
 
     cudaMemcpy(output, d_output, size, cudaMemcpyDeviceToHost);

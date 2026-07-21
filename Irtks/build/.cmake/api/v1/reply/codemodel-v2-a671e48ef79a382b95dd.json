@@ -86,14 +86,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "examen02_cuda::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-examen02_cuda-Debug-c80acc509207e2190e78.json",
+					"jsonFile" : "target-examen02_cuda-Debug-b4c0a33998d79bdff4e0.json",
 					"name" : "examen02_cuda",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "examen02_omp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-examen02_omp-Debug-0dfef7c34720994ef14d.json",
+					"jsonFile" : "target-examen02_omp-Debug-5e8e3f387721b9c3d526.json",
 					"name" : "examen02_omp",
 					"projectIndex" : 0
 				}
@@ -184,14 +184,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "examen02_cuda::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-examen02_cuda-Release-12676567133e36da504a.json",
+					"jsonFile" : "target-examen02_cuda-Release-48e06d8d5ee81c23ca79.json",
 					"name" : "examen02_cuda",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "examen02_omp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-examen02_omp-Release-140ff4924bd4bc174a50.json",
+					"jsonFile" : "target-examen02_omp-Release-f37da2c89aed5c8745a8.json",
 					"name" : "examen02_omp",
 					"projectIndex" : 0
 				}
@@ -282,14 +282,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "examen02_cuda::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-examen02_cuda-RelWithDebInfo-ce9f55ec755d094db85d.json",
+					"jsonFile" : "target-examen02_cuda-RelWithDebInfo-5e8e7cd362691d90d9da.json",
 					"name" : "examen02_cuda",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "examen02_omp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-examen02_omp-RelWithDebInfo-109945cbef4d6694f6ae.json",
+					"jsonFile" : "target-examen02_omp-RelWithDebInfo-87c4737f8bd52078fa58.json",
 					"name" : "examen02_omp",
 					"projectIndex" : 0
 				}
@@ -299,8 +299,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/tools/EjemploDos/build",
-		"source" : "C:/tools/EjemploDos"
+		"build" : "C:/tools/Irtks/build",
+		"source" : "C:/tools/Irtks"
 	},
 	"version" : 
 	{

@@ -16,7 +16,7 @@ build examen02_omp.exe: phony Release/examen02_omp.exe
 
 
 #############################################
-# Folder: C:/tools/EjemploDos/build
+# Folder: C:/tools/Irtks/build
 
 build all: phony all$:Release
 

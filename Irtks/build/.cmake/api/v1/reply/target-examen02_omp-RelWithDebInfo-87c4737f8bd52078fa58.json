@@ -237,7 +237,7 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "blur_omp.cpp",
+			"path" : "filter_omp.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

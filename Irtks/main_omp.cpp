@@ -3,7 +3,8 @@
 #include <string>
 #include <optional>
 #include <cstdint>
-#include "blur_omp.h"
+#include "filter_omp.h"
+
 
 int main() {
     sf::Image originalImage;
@@ -22,7 +23,7 @@ int main() {
     (void)texture.loadFromImage(processedImage);
     sf::Sprite sprite(texture);
     
-    sf::RenderWindow window(sf::VideoMode({width, height}), "Gaussian Blur - OpenMP");
+    sf::RenderWindow window(sf::VideoMode({width, height}), "Image Filter - OpenMP");
     window.setFramerateLimit(60);
     
     sf::Font font;
@@ -47,7 +48,7 @@ int main() {
                 if (keyEvent->code == sf::Keyboard::Key::B) {
                     currentMode = "OpenMP";
                     auto start = std::chrono::high_resolution_clock::now();
-                    applyGaussianBlurOMP(originalImage.getPixelsPtr(), const_cast<std::uint8_t*>(processedImage.getPixelsPtr()), width, height);
+                    applyFilterOMP(originalImage.getPixelsPtr(), const_cast<std::uint8_t*>(processedImage.getPixelsPtr()), width, height);
                     auto end = std::chrono::high_resolution_clock::now();
                     processTime = std::chrono::duration<float, std::milli>(end - start).count();
                     (void)texture.loadFromImage(processedImage);
@@ -71,7 +72,7 @@ int main() {
                            "Time: " + std::to_string(processTime) + " ms\n" +
                            "Size: " + std::to_string(width) + "x" + std::to_string(height) + "\n" +
                            "FPS: " + std::to_string(fps) + "\n" +
-                           "Press B (Blur), R (Reset)");
+                           "Press B (Filter), R (Reset)");
                            
         window.clear();
         window.draw(sprite);

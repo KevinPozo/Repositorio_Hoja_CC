@@ -43,7 +43,7 @@ include CMakeFiles/common.ninja
 
 build cmake_object_order_depends_target_examen02_omp_DEBUG: phony || .
 
-build CMakeFiles/examen02_omp.dir/Debug/main_omp.cpp.obj: CXX_COMPILER__examen02_omp_unscanned_Debug C$:/tools/EjemploDos/main_omp.cpp || cmake_object_order_depends_target_examen02_omp_DEBUG
+build CMakeFiles/examen02_omp.dir/Debug/main_omp.cpp.obj: CXX_COMPILER__examen02_omp_unscanned_Debug C$:/tools/Irtks/main_omp.cpp || cmake_object_order_depends_target_examen02_omp_DEBUG
   CONFIG = Debug
   DEFINES = -DCMAKE_INTDIR=\"Debug\"
   DEP_FILE = CMakeFiles\examen02_omp.dir\Debug\main_omp.cpp.obj.d
@@ -51,16 +51,20 @@ build CMakeFiles/examen02_omp.dir/Debug/main_omp.cpp.obj: CXX_COMPILER__examen02
   INCLUDES = -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\examen02_omp.dir\Debug
   OBJECT_FILE_DIR = CMakeFiles\examen02_omp.dir\Debug
+  TARGET_COMPILE_PDB = CMakeFiles\examen02_omp.dir\Debug\
+  TARGET_PDB = Debug\examen02_omp.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\examen02_omp.dir
 
-build CMakeFiles/examen02_omp.dir/Debug/blur_omp.cpp.obj: CXX_COMPILER__examen02_omp_unscanned_Debug C$:/tools/EjemploDos/blur_omp.cpp || cmake_object_order_depends_target_examen02_omp_DEBUG
+build CMakeFiles/examen02_omp.dir/Debug/filter_omp.cpp.obj: CXX_COMPILER__examen02_omp_unscanned_Debug C$:/tools/Irtks/filter_omp.cpp || cmake_object_order_depends_target_examen02_omp_DEBUG
   CONFIG = Debug
   DEFINES = -DCMAKE_INTDIR=\"Debug\"
-  DEP_FILE = CMakeFiles\examen02_omp.dir\Debug\blur_omp.cpp.obj.d
+  DEP_FILE = CMakeFiles\examen02_omp.dir\Debug\filter_omp.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fopenmp
   INCLUDES = -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\examen02_omp.dir\Debug
   OBJECT_FILE_DIR = CMakeFiles\examen02_omp.dir\Debug
+  TARGET_COMPILE_PDB = CMakeFiles\examen02_omp.dir\Debug\
+  TARGET_PDB = Debug\examen02_omp.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\examen02_omp.dir
 
 
@@ -71,16 +75,17 @@ build CMakeFiles/examen02_omp.dir/Debug/blur_omp.cpp.obj: CXX_COMPILER__examen02
 #############################################
 # Link the executable Debug\examen02_omp.exe
 
-build Debug/examen02_omp.exe: CXX_EXECUTABLE_LINKER__examen02_omp_Debug CMakeFiles/examen02_omp.dir/Debug/main_omp.cpp.obj CMakeFiles/examen02_omp.dir/Debug/blur_omp.cpp.obj | C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-graphics-d.a C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-window-d.a C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-system-d.a C$:/tools/mingw64/lib/libgomp.dll.a C$:/tools/mingw64/x86_64-w64-mingw32/lib/libmingwthrd.a
+build Debug/examen02_omp.exe: CXX_EXECUTABLE_LINKER__examen02_omp_Debug CMakeFiles/examen02_omp.dir/Debug/main_omp.cpp.obj CMakeFiles/examen02_omp.dir/Debug/filter_omp.cpp.obj | C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-graphics-d.a C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-window-d.a C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-system-d.a C$:/tools/mingw64/lib/libgomp.dll.a C$:/tools/mingw64/x86_64-w64-mingw32/lib/libmingwthrd.a
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-graphics-d.a  C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-window-d.a  C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-system-d.a  C:/tools/mingw64/lib/libgomp.dll.a  C:/tools/mingw64/x86_64-w64-mingw32/lib/libmingwthrd.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\examen02_omp.dir\Debug
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\tools\EjemploDos\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file c:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/EjemploDos/build/Debug/examen02_omp.exe -installedDir c:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/bin -OutVariable out"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\tools\Irtks\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file c:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/Irtks/build/Debug/examen02_omp.exe -installedDir c:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/bin -OutVariable out"
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\examen02_omp.dir\Debug\
   TARGET_FILE = Debug\examen02_omp.exe
   TARGET_IMPLIB = Debug\libexamen02_omp.dll.a
-  TARGET_PDB = examen02_omp.exe.dbg
+  TARGET_PDB = Debug\examen02_omp.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\examen02_omp.dir
 
 # =============================================================================
@@ -92,7 +97,7 @@ build Debug/examen02_omp.exe: CXX_EXECUTABLE_LINKER__examen02_omp_Debug CMakeFil
 
 build cmake_object_order_depends_target_examen02_cuda_DEBUG: phony || .
 
-build CMakeFiles/examen02_cuda.dir/Debug/main_cuda.cpp.obj: CXX_COMPILER__examen02_cuda_unscanned_Debug C$:/tools/EjemploDos/main_cuda.cpp || cmake_object_order_depends_target_examen02_cuda_DEBUG
+build CMakeFiles/examen02_cuda.dir/Debug/main_cuda.cpp.obj: CXX_COMPILER__examen02_cuda_unscanned_Debug C$:/tools/Irtks/main_cuda.cpp || cmake_object_order_depends_target_examen02_cuda_DEBUG
   CONFIG = Debug
   DEFINES = -DCMAKE_INTDIR=\"Debug\"
   DEP_FILE = CMakeFiles\examen02_cuda.dir\Debug\main_cuda.cpp.obj.d
@@ -100,16 +105,20 @@ build CMakeFiles/examen02_cuda.dir/Debug/main_cuda.cpp.obj: CXX_COMPILER__examen
   INCLUDES = -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\examen02_cuda.dir\Debug
   OBJECT_FILE_DIR = CMakeFiles\examen02_cuda.dir\Debug
+  TARGET_COMPILE_PDB = CMakeFiles\examen02_cuda.dir\Debug\
+  TARGET_PDB = Debug\examen02_cuda.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\examen02_cuda.dir
 
-build CMakeFiles/examen02_cuda.dir/Debug/blur_cuda_dummy.cpp.obj: CXX_COMPILER__examen02_cuda_unscanned_Debug C$:/tools/EjemploDos/blur_cuda_dummy.cpp || cmake_object_order_depends_target_examen02_cuda_DEBUG
+build CMakeFiles/examen02_cuda.dir/Debug/filter_cuda_dummy.cpp.obj: CXX_COMPILER__examen02_cuda_unscanned_Debug C$:/tools/Irtks/filter_cuda_dummy.cpp || cmake_object_order_depends_target_examen02_cuda_DEBUG
   CONFIG = Debug
   DEFINES = -DCMAKE_INTDIR=\"Debug\"
-  DEP_FILE = CMakeFiles\examen02_cuda.dir\Debug\blur_cuda_dummy.cpp.obj.d
+  DEP_FILE = CMakeFiles\examen02_cuda.dir\Debug\filter_cuda_dummy.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\examen02_cuda.dir\Debug
   OBJECT_FILE_DIR = CMakeFiles\examen02_cuda.dir\Debug
+  TARGET_COMPILE_PDB = CMakeFiles\examen02_cuda.dir\Debug\
+  TARGET_PDB = Debug\examen02_cuda.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\examen02_cuda.dir
 
 
@@ -120,16 +129,17 @@ build CMakeFiles/examen02_cuda.dir/Debug/blur_cuda_dummy.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable Debug\examen02_cuda.exe
 
-build Debug/examen02_cuda.exe: CXX_EXECUTABLE_LINKER__examen02_cuda_Debug CMakeFiles/examen02_cuda.dir/Debug/main_cuda.cpp.obj CMakeFiles/examen02_cuda.dir/Debug/blur_cuda_dummy.cpp.obj | C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-graphics-d.a C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-window-d.a C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-system-d.a
+build Debug/examen02_cuda.exe: CXX_EXECUTABLE_LINKER__examen02_cuda_Debug CMakeFiles/examen02_cuda.dir/Debug/main_cuda.cpp.obj CMakeFiles/examen02_cuda.dir/Debug/filter_cuda_dummy.cpp.obj | C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-graphics-d.a C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-window-d.a C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-system-d.a
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-graphics-d.a  C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-window-d.a  C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libsfml-system-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\examen02_cuda.dir\Debug
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\tools\EjemploDos\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file c:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/EjemploDos/build/Debug/examen02_cuda.exe -installedDir c:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/bin -OutVariable out"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\tools\Irtks\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file c:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/Irtks/build/Debug/examen02_cuda.exe -installedDir c:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/bin -OutVariable out"
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\examen02_cuda.dir\Debug\
   TARGET_FILE = Debug\examen02_cuda.exe
   TARGET_IMPLIB = Debug\libexamen02_cuda.dll.a
-  TARGET_PDB = examen02_cuda.exe.dbg
+  TARGET_PDB = Debug\examen02_cuda.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\examen02_cuda.dir
 
 build examen02_cuda.exe$:Debug: phony Debug/examen02_cuda.exe
@@ -142,7 +152,7 @@ build examen02_omp$:Debug: phony Debug/examen02_omp.exe
 
 
 #############################################
-# Folder: C:/tools/EjemploDos/build
+# Folder: C:/tools/Irtks/build
 
 build all$:Debug: phony Debug/examen02_omp.exe Debug/examen02_cuda.exe
 

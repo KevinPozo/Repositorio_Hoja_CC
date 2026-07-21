@@ -1,4 +1,4 @@
-C:/tools/EjemploDos/build/CMakeFiles/examen02_omp.dir
-C:/tools/EjemploDos/build/CMakeFiles/examen02_cuda.dir
-C:/tools/EjemploDos/build/CMakeFiles/edit_cache.dir
-C:/tools/EjemploDos/build/CMakeFiles/rebuild_cache.dir
+C:/tools/Irtks/build/CMakeFiles/examen02_omp.dir
+C:/tools/Irtks/build/CMakeFiles/examen02_cuda.dir
+C:/tools/Irtks/build/CMakeFiles/edit_cache.dir
+C:/tools/Irtks/build/CMakeFiles/rebuild_cache.dir
